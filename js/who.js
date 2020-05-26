@@ -1,0 +1,1 @@
+document.getElementById('who').innerHTML = "My name is Marija. <br> I am curious and hungry for new challenges. <br> Currenly I am a mentee of Women Go Tech programme and looking for the new opportunities in Front-end development.";

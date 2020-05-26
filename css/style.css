@@ -1,0 +1,38 @@
+
+body{
+    background: url(../photos/background.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    user-select:none;
+        -webkit-user-select: none;
+        -moz-user-select: none; 
+        -ms-user-select: none; 
+}
+
+.container{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    background: #ccff15;
+    opacity:0.6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.container_hi{
+    font-size: 46px;
+    font-family: 'Inter', sans-serif;
+    /* text-transform: uppercase; */
+}
+
+
+a{
+    text-decoration:none;
+    color:black;
+}

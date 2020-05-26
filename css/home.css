@@ -1,0 +1,47 @@
+body{
+    background: url(../photos/background.jpeg);
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:0 auto;
+    user-select:none;
+}
+
+.container_collumn_1{ 
+    float:left
+}
+
+.container_collumn_2{  
+    float:right;
+}
+
+.container_who, .container_why, .container_photos, .container_contact{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    background: #ccff15;
+    opacity:0.5;
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 516px) {
+    .container_who, .container_why, .container_photos, .container_contact{
+    width:140px;
+    height:140px;
+    }
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
